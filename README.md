@@ -32,4 +32,4 @@ Contributions to the project are welcome! If you'd like to contribute, fork the 
 This project is licensed under the MIT License.
 
 # Contact
-Feel free to reach out with any questions or feedback! You can contact me at [your email] or connect with me on [social media platform
+Feel free to reach out with any questions or feedback! You can contact me at meghrajdvg.pn253@gmail.com
