@@ -1,66 +1,99 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<!DOCTYPE html>
+<html lang="en">
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
 
-## About Laravel
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+        }
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+        li {
+            margin-bottom: 10px;
+        }
 
-## Learning Laravel
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+<body>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+    <div class="container">
+        <h1>Job Application Form</h1>
 
-## Laravel Sponsors
+        <h2>Overview</h2>
+        <p>This project is a simple web application that allows users to submit job applications online. It's built
+            using Laravel, HTML, CSS, Bootstrap, and JavaScript.</p>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+        <h2>Features</h2>
+        <ul>
+            <li>User-friendly interface designed with HTML, CSS, and Bootstrap.</li>
+            <li>Backend validation and security measures implemented using Laravel.</li>
+            <li>MySQL database integration for storing job application data.</li>
+            <li>File upload functionality with a maximum file size of 2 MB, restricted to PDF files.</li>
+        </ul>
 
-### Premium Partners
+        <h2>Installation</h2>
+        <ol>
+            <li>Clone the repository to your local machine.</li>
+            <li>Install project dependencies using Composer.</li>
+            <li>Configure the database settings in the <code>.env</code> file.</li>
+            <li>Run database migrations using <code>php artisan migrate</code>.</li>
+            <li>Serve the application using <code>php artisan serve</code>.</li>
+        </ol>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+        <h2>Usage</h2>
+        <ol>
+            <li>Access the application in your web browser.</li>
+            <li>Fill out the job application form with your details.</li>
+            <li>Upload your resume in PDF format.</li>
+            <li>Submit the form and wait for confirmation.</li>
+        </ol>
 
-## Contributing
+        <h2>Contributing</h2>
+        <p>Contributions to the project are welcome! If you'd like to contribute, fork the repository, make your
+            changes, and submit a pull request.</p>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+        <h2>License</h2>
+        <p>This project is licensed under the MIT License.</p>
 
-## Code of Conduct
+        <h2>Contact</h2>
+        <p>Feel free to reach out with any questions or feedback! You can contact me at <a href="mailto:youremail@example.com">your email</a> or connect with me on <a href="#">social media platform</a>.</p>
+    </div>
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-## Security Vulnerabilities
+</body>
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+</html>
