@@ -5,10 +5,10 @@ Welcome to the Job Application Form project implemented in Laravel!
 This project is a simple web application that allows users to submit job applications online. It's built using Laravel, HTML, CSS, Bootstrap, and JavaScript.
 
 # Features
-User-friendly interface designed with HTML, CSS, and Bootstrap.
-Backend validation and security measures implemented using Laravel.
-MySQL database integration for storing job application data.
-File upload functionality with a maximum file size of 2 MB, restricted to PDF files.
+<ol>User-friendly interface designed with HTML, CSS, and Bootstrap.
+<ol>Backend validation and security measures implemented using Laravel.
+<ol>MySQL database integration for storing job application data.
+<ol>File upload functionality with a maximum file size of 2 MB, restricted to PDF files.
 
 # Installation
 To run the project locally, follow these steps:
